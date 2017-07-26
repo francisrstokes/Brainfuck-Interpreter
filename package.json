@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Brainfuck interpreter using Jison",
   "main": "src/bf.js",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "eslint": "^4.3.0",
-    "jison": "^0.4.17",
-    "readline-sync": "^1.4.7"
+    "jison": "^0.4.17"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate_parser": "jison grammar/brainfuck.jison"
