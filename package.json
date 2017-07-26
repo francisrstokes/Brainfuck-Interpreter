@@ -4,6 +4,7 @@
   "description": "Brainfuck interpreter using Jison",
   "main": "src/bf.js",
   "dependencies": {
+    "eslint": "^4.3.0",
     "jison": "^0.4.17",
     "readline-sync": "^1.4.7"
   },
