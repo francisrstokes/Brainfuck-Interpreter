@@ -1,0 +1,25 @@
+{
+  "name": "brainfuck-interpreter",
+  "version": "1.0.0",
+  "description": "Brainfuck interpreter using Jison",
+  "main": "src/bf.js",
+  "dependencies": {
+    "jison": "^0.4.17",
+    "readline-sync": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate_parser": "jison grammar/brainfuck.jison"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francisrstokes/Brainfuck-Interpreter.git"
+  },
+  "author": "Francis Stokes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francisrstokes/Brainfuck-Interpreter/issues"
+  },
+  "homepage": "https://github.com/francisrstokes/Brainfuck-Interpreter#readme"
+}
